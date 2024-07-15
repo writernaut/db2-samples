@@ -1,5 +1,5 @@
 ******************************************************************************
-* (c) Copyright IBM Corp. 2007 All rights reserved.
+* (c) Copyright IBM Corp. 2024 All rights reserved.
 * 
 * The following sample of source code ("Sample") is owned by International 
 * Business Machines Corporation or one of its subsidiaries ("IBM") and is 
@@ -22,11 +22,11 @@
 *                  README for C Samples on Linux 
 *
 * The <install_path>/sqllib/samples/c directory contains this README file
-* where <install_path> is the location of DB2 9.7 on your hard drive.
+* where <install_path> is the location of Db2 on your hard drive.
 * The default location for <install_path> for Linux is $HOME.
-* This README describes how to build and run C sample code for DB2 9.7.
+* This README describes how to build and run C sample code for Db2.
 *
-* The DB2 9.7 sample code for C is located in the following directory:
+* The Db2 sample code for C is located in the following directory:
 * <install_path>/sqllib/samples/c
 *
 * It is recommended that you copy the files from this directory to your
@@ -36,13 +36,13 @@
 *
 * WARNING: Some of these samples may change your database or database manager
 *          configuration. Execute the samples against a 'test' database only,
-*          such as the DB2 SAMPLE database.
+*          such as the Db2 SAMPLE database.
 *
 * NOTE: These samples are tested on sample database created using db2sampl. 
 *
 ******************************************************************************
 *
-*            Prepare your DB2 sample development environment
+*            Prepare your Db2 sample development environment
 *
 *  1) Copy the files from <install_path>/sqllib/samples/c to your working
 *     directory and ensure that directory has write permission.
@@ -64,10 +64,10 @@
 *
 ******************************************************************************
 *
-*                        Building DB2 Samples
+*                        Building Db2 Samples
 *
-* There are two ways to build DB2 samples: using a make utility or using the
-* build files that are included with the DB2 sample programs.
+* There are two ways to build Db2 samples: using a make utility or using the
+* build files that are included with the Db2 sample programs.
 *       o To build samples using the make utility see 'BUILDING SAMPLES USING
 *         make UTILITY'.
 *       o To build samples using the build files or when you do not have a
@@ -385,8 +385,6 @@
 *                  database log files.
 * db2uext2.ctsm  - uses Tivoli Storage Manager (TSM) APIs to archive and
 *                  retrieve database log files.
-* db2uext2.cxbsa - uses XBSA APIs to archive and retrieve database log
-*                  files.
 *
 ******************************************************************************
 *
